@@ -24,7 +24,7 @@ app.get('/', function(req, res) {
   res.send('<pre>' + JSON.stringify(received_updates, null, 2) + '</pre>');
 });
 
-app.get(['/facebook', '/instagram'], function(req, res) {
+app.get(['/webhook'], function(req, res) {
   console.log(req.query)
   if (
     req.query['hub.mode'] == 'subscribe' &&
