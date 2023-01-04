@@ -18,6 +18,7 @@
   "homepage": "https://github.com/JohannTzT/exemplo_App_WhatsappBusiness_Server#readme",
   "dependencies": {
     "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-x-hub": "^1.0.4"
   }
